@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Deployment</title>
+    <meta name="viewport" content="width=de, initial-scale=1.0">
+    <title>Jenkins CI/CD Deployment</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">
     <style>
         * {
             margin: 0;
@@ -11,8 +12,8 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Arial, sans-serif;
-            background: url('https://www.devopsschool.com/blog/wp-content/uploads/2020/03/devops.jpeg') no-repeat center center/cover;
+            font-family: 'Noto Color Emoji', Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298, #6b8bc3, #9ab3d5);
             color: white;
             height: 100vh;
             display: flex;
@@ -47,7 +48,18 @@
         .footer {
             margin-top: 20px;
             font-size: 18px;
-            color: #ccc;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+        }
+        .footer p {
+            color: white;
+        }
+        .footer span {
+            color: white !important;
+            font-weight: bold;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-20px); }
@@ -60,14 +72,20 @@
     </style>
 </head>
 <body>
+    <head>
+        h1>&#x1F680; This is the first version! &#x1F680;</h1>
+        
+    </head>
+    
     <div class="container">
-        <h1>🚀 DevOps Deployment Successful! 🚀</h1>
-        <p>Mini project completed by <b>Naga Parameswara Reddy</b>.</p>
+        <h1>&#x1F680; Jenkins CI/CD Deployment Successful! &#x1F680;</h1>
+        
+        <p>Jenkins CI/CD project completed by <b>Naga Parameswara Reddy</b>.</p>
         <p>Automated deployment using Jenkins CI/CD & Tomcat.</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/1920px-Devops-toolchain.svg.png" alt="DevOps Tools" width="200">
-        <p class="projects-coming">⚡ Many More Projects Coming Soon! ⚡</p>
+        <p class="projects-coming">&#x26A1; Many More Projects Coming Soon! &#x26A1;</p>
         <div class="footer">
-            <p>&copy; 2025 Naga Parameswara Reddy | Keep Automating & Innovating 🚀</p>
+            <p>&copy; <span style="color: white;">2025</span> Naga Parameswara Reddy | Keep Automating & Innovating &#x1F680;</p>
         </div>
     </div>
 </body>
