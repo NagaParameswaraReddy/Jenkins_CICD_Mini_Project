@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=de, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenkins CI/CD Deployment</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">
     <style>
@@ -33,6 +33,10 @@
         h1 {
             color: #4CAF50;
             font-size: 32px;
+        }
+        /* Ensure the first H1 (outside container) appears in white */
+        h1.first-version {
+            color: white !important;
         }
         p {
             font-size: 20px;
@@ -72,11 +76,8 @@
     </style>
 </head>
 <body>
-    <head>
-        h1>&#x1F680; This is the first version! &#x1F680;</h1>
-        
-    </head>
-    
+    <h1 class="first-version">&#x1F680; This is the first version! &#x1F680;</h1>
+
     <div class="container">
         <h1>&#x1F680; Jenkins CI/CD Deployment Successful! &#x1F680;</h1>
         
@@ -85,7 +86,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/1920px-Devops-toolchain.svg.png" alt="DevOps Tools" width="200">
         <p class="projects-coming">&#x26A1; Many More Projects Coming Soon! &#x26A1;</p>
         <div class="footer">
-            <p>&copy; <span style="color: white;">2025</span> Naga Parameswara Reddy | Keep Automating & Innovating &#x1F680;</p>
+            <p>&copy; <span>2025</span> Naga Parameswara Reddy | Keep Automating & Innovating &#x1F680;</p>
         </div>
     </div>
 </body>
