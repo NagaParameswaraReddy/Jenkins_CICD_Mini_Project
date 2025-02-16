@@ -76,8 +76,7 @@
     </style>
 </head>
 <body>
-    <h1> class="first-version">&#x1F680; This is the second version! &#x1F680;</h1>
-
+   <h1 class="first-version">&#x1F680; This is the second version! &#x1F680;</h1>
     <div class="container">
         <h1>&#x1F680; Jenkins CI/CD Deployment Successful! &#x1F680;</h1>
         
